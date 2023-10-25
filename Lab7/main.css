@@ -1,0 +1,42 @@
+@import './base.css';
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+    background-image: url('https://images.wallpaperscraft.ru/image/single/tsvety_sakura_pattern_139321_1280x720.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #app {
+    width: 70%; /* Ширина контейнера */
+    margin: 0 auto; /* Горизонтальне центрування */
+    padding: 20px; /* Відступи від країв */
+    background-color: #f2f2f2; /* Колір фону контейнера */
+    border: 1px solid #ccc; /* Рамка контейнера */
+    border-radius: 5px; /* Закруглені кути контейнера */
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .form-control {
+    width: 35%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-check-input {
+    margin-right: 5px;
+  }
+
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+}
+
+
