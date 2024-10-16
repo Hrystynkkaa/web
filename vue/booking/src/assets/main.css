@@ -1,0 +1,121 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  display: flex; /* Вирівнювання по flexbox */
+  justify-content: space-between; /* Простір між логотипом та меню */
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+  padding: 10px 20px;
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Змінюємо колір при наведенні */
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.booking-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.apartment-card {
+  flex: 0 1 calc(33% - 20px);
+  background: #e9ecef;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.apartment-card:hover {
+  transform: translateY(-5px);
+}
+
+.apartment-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.apartment-details {
+  padding: 15px;
+}
+
+.apartment-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.apartment-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.booking-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.booking-button:hover {
+  background-color: #218838;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+.menu {
+  background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  text-decoration: underline;
+}
